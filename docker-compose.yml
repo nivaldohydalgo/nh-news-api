@@ -4,7 +4,7 @@ services:
   app:
     build: .
     image: nh-news-api
-    command: npm start
+    command: npm run start-pro
     ports:
       - "3000:3000"
     volumes:
